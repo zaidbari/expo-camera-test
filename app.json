@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "nust_camera",
+    "slug": "nust_camera",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
