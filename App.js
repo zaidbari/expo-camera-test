@@ -39,7 +39,6 @@ export default function App() {
 		let photo = await cameraRef.takePictureAsync()
 		console.log('photo', photo)
 
-		console.log(photo.uri.split('Camera')[1])
 		FileSystem.copyAsync({
 			from: photo.uri,
 			to: FileSystem.documentDirectory + photo.uri.split('Camera')[1]
